@@ -142,3 +142,18 @@ li:before {
 	font-size: 150%;
 	color: #a39c90;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+}
