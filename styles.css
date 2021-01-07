@@ -1,15 +1,81 @@
 body {
-	background-color: #211e1b;
+	background-image: url("textures/vhs_static.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 @font-face {
 	font-family: "Quicksand Light";
-	src: url("https://bestris.github.io/fonts/Quicksand/static/Quicksand-Light.ttf")
+	src: url("fonts/Quicksand/static/Quicksand-Light.ttf");
+}
+
+@font-face {
+	font-family: "Pixelboy";
+	src: url("fonts/Pixeboy-z8XGD.ttf");
+}
+
+#main {
+	background: rgba(22, 33, 44, 0.6);
+	width: 50%;
+	height: 500%;
+	backdrop-filter: blur(5px);
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, 0);
+	position: absolute;
+	z-index: -1;
+}
+
+#menu {
+	/*background-color: white;*/
+	color: #a39c90;
+	font-family: "Pixelboy";
+	padding: 10px;
+	width: 25%;
+	height: 300px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+#menu div{
+	font-size: 200%;
 }
 
 #welcome {
 	color: #a39c90;
 	text-align: center;
-	font-size: 500%;
-	font-family: "Quicksand Light";
+	font-size: 700%;
+	font-family: "Pixelboy";
+}
+
+a:link {
+	color: #a39c90;
+}
+a:visited {
+	color: #a39c90;
+}
+
+ul {
+    list-style:     none;
+    margin:         0.75em 0;
+}
+
+li {
+	font-size: 120%;
+}
+
+li:before {
+    content:        "";
+    border-color:   transparent #a39c90;
+    border-style:   solid;
+    border-width:   0.35em 0 0.35em 0.45em;
+    display:        block;
+    height:         0;
+    left:           -1em;
+    position:       relative;
+    top:            0.9em;
+    width:          0;
 }
