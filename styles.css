@@ -9,7 +9,7 @@ body::before {
 	background-size: cover;
 	/*background-attachment: fixed;*/
 	position: fixed;
-	opacity: 0.6;
+	opacity: 0.3;
 	top: 0;
 	left: 0;
 	bottom: 0;
