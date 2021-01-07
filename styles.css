@@ -1,3 +1,10 @@
+html {
+	background-color: #000;
+	color: #fff;
+	font-family: "Paragraph", sans-serif;
+	cursor: url("res/img/cursor.png"), default;
+}
+
 body {
 
 }
@@ -87,7 +94,6 @@ body {
 }
 
 #menu {
-	color: white;
 	font-family: "Pixelboy";
 	padding: 10px;
 	width: 25%;
@@ -104,10 +110,12 @@ body {
 }
 
 #welcome {
-	color: white;
 	text-align: center;
 	font-size: 600%;
 	font-family: "Makina";
+}
+a {
+	cursor: url("res/img/pointer.png"), default;
 }
 
 a:link {
@@ -142,12 +150,6 @@ li:before {
 .kill {
 	position: relative;
 	filter: url(#kill);
-}
-
-#text {
-	font-family: "Paragraph";
-	font-size: 100%;
-	color: white;
 }
 
 /* width */
