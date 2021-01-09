@@ -44,7 +44,7 @@ html {
 	width: 7.04em;
 	height: 2em;
 	font-size: 2em;
-
+	pointer-events: none;
 }
 
 .vhs_font {
