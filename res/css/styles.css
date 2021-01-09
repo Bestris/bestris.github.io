@@ -36,10 +36,21 @@ html {
 	z-index: 1;
 }
 
+#clock {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin: 8vh 3vw;
+	width: 7.04em;
+	height: 2em;
+	font-size: 2em;
+
+}
+
 .vhs_font {
 	font-family: "VCR OSD Mono";
+	text-shadow: 0 0 0.1em black, -0.04em 0 0.02em #ff00ff, 0.04em 0 0.02em #00ffff;
 	filter: blur(1px);
-	text-shadow: 0 0 15px black;
 }
 
 h1 {
@@ -65,7 +76,7 @@ p {
 
 #menu {
 	font-size: 150%;
-	padding: 8vh 3vw;
+	margin: 8vh 3vw;
 	width: 25%;
 	height: 300px;
 	position: fixed;
@@ -117,6 +128,6 @@ li:before {
 	filter: url(#kill);
 }
 
-::selection {
+*::selection{
 	background: blue;
 }
