@@ -35,5 +35,5 @@ $(window).on("load", function() {
 
 	showTime();
 
-	//$("#load_screen").addClass("loadscreen_hidden");
+	$("#load_screen").addClass("loadscreen_hidden");
 });
