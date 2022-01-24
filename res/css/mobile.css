@@ -2,7 +2,6 @@
 @import "fonts.css";
 @import "static.css";
 @import "noise.css";
-/*@import "load_screen.css";*/
 
 html {
 	background-color: #000;
@@ -25,26 +24,26 @@ html {
 
 #main {
 	background: rgba(22, 33, 44, 0.6);
-	width: 50%;
+	width: 93%;
 	min-height: 100%;
 	backdrop-filter: blur(5px);
-	top: 0;
-	left: 50%;
-	transform: translate(-50%, 0);
+	top: 50px;
+	right: 0;
 	position: absolute;
 	padding: 20px;
-	z-index: 1;
+	z-index: 0;
 }
 
 #clock {
 	position: fixed;
 	bottom: 0;
 	left: 0;
-	margin: 8vh 3vw;
+	margin: 1vh 1vh;
 	width: 7.04em;
 	height: 2em;
 	font-size: 2em;
 	pointer-events: none;
+	background-color: blue;
 }
 
 .vhs_font {
@@ -53,36 +52,36 @@ html {
 	filter: blur(1px);
 }
 
+
 h1 {
 	margint: 0;
 	padding: 0;
 	border: 0;
 	line-height: 0;
 	text-align: center;
-	font-size: 600%;
+	font-size: 400%;
 }
 
 h2 {
-	font-size: 300%;
+	font-size: 200%;
 	line-height: 0;
-	padding: 0;
-	margin: 0;
 }
 
 p {
-	font-size: 120%;
+	font-size: 100%;
 	text-align: center;
 }
 
 #menu {
-	font-size: 150%;
-	margin: 8vh 3vw;
-	width: 25%;
-	height: 300px;
+	font-size: 100%;
+	width: 100%;
+	height: 50px;
 	position: fixed;
+	background-color: blue;
+	display: flex;
 	top: 0;
 	left: 0;
-	z-index: 0;
+	z-index: 1;
 }
 
 a {
@@ -104,23 +103,12 @@ a.current, a:hover {
 
 ul {
     list-style: none;
+	display: flex;
+
 }
 
 li {
-	font-size: 130%;
-}
-
-li:before {
-    content: "";
-    border-color: transparent white;
-    border-style: solid;
-    border-width: 0.35em 0 0.35em 0.45em;
-    display: block;
-    height: 0;
-    left: -1em;
-    position: relative;
-    top: 0.9em;
-    width: 0;
+	font-size: 100%;
 }
 
 .kill {

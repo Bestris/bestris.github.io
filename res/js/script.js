@@ -1,4 +1,14 @@
+//simple check for mobile
+//TODO: make more reliable function
+if(window.innerWidth < window.innerHeight) {
+	document.write('<link rel="stylesheet" href="res/css/mobile.css" class="style">');
+}
+else {
+	document.write('<link rel="stylesheet" href="res/css/styles.css" class="style">');
+}
+
 $(window).on("load", function() {
+
 	var month_name = [
 		"JAN", "FEB", "MAR",
 		"APR", "MAY", "JUN",
